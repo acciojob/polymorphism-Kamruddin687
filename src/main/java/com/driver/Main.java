@@ -8,12 +8,12 @@ public class Main {
      public  int product(int x,int y,int z){
          return x*y*z;
      }
-     public  double product(int x int u){
+     public  double product(double x double u){
          return x*u;
      }
  }
  public static void main(String[] args){
-     Product p= new Product();
+     Product p = new Product();
      p.product(10,5);
      p.product(10,5,2);
      p.product(5.02,3.05);
